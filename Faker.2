@@ -1,0 +1,15 @@
+from faker import Faker
+f = Faker("tr")
+f.name()
+f.address()
+f.email()
+print(f'name:{f.name()}')
+print(f'address:{f.address()}')
+S=input("İf you want to continue,you should enter a numeral" )
+N="0123456789"
+for i in N:
+    if i in S:
+        print(f'name:{f.name()}')
+        print(f'address:{f.address()}')
+    else:
+        print("See you :):):)")
